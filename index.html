@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button" aria-pressed="true">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu black-bg">
+        <div class="conteudo-menu conteudo-principal black-bg">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">Maria NerdBox®</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href=#quemsomos>Quem somos</a></li>
+                    <li><a href=#nossosboxes>Nossos Boxes</a></li>
+                    <li><a href=#nossosplanos>Nossos Planos</a></li>
+                    <li><a href=#contato>Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div id="home" class="blue-violet-bg section">
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="radio" id="slide1" checked>
+                <input type="radio" name="radio" id="slide2">
+                <input type="radio" name="radio" id="slide3">
+                <input type="radio" name="radio" id="slide4">
+                <input type="radio" name="radio" id="slide5">
+                <input type="radio" name="radio" id="slide6">
+                <input type="radio" name="radio" id="slide7">
+                <input type="radio" name="radio" id="slide8">
+
+                <div class="slide s1">
+                    <img src="./Assets/img/bg-gameofthrones2.jpg" alt="background Game of Thrones">
+                </div>
+                <div class="slide">
+                    <img src="./Assets/img/bg-harrypotter2.jpg" alt="background Harry Potter">
+                </div>
+                <div class="slide">
+                    <img src="./Assets/img/bg-marvel.jpg" alt="background Marvel">
+                </div>
+                <div class="slide">
+                    <img src="./Assets/img/bg-star-wars.jpg" alt="background Star Wars">
+                </div>
+                <div class="slide">
+                    <img src="./Assets/img/dc-bg.jpg" alt="background DC">
+                </div>
+                <div class="slide">
+                    <img src="./Assets/img/playstation-bg.jpg" alt="background Playstation">
+                </div>
+                <div class="slide">
+                    <img src="./Assets/img/senhor-dos-aneis-bg.webp" alt="background O Senhor dos Anéis">
+                </div>
+                <div class="slide">
+                    <img src="./Assets/img/xbox-bg.jpg" alt="background XBOX">
+                </div>
+            </div>
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
+                <label class="bar" for="slide6"></label>
+                <label class="bar" for="slide7"></label>
+                <label class="bar" for="slide8"></label>
+            </div>
+
+        </div>
+    </div>
+    <section id="quemsomos" class="black-bg section">
+        <div class="conteudo-quem-somos">
+            <h2>Quem somos</h2>
+            <p>A Maria NerdBox é uma empresa que realiza a venda de box de livros da cultura nerd mundial, prezamos por
+                vender os produtos que amamos, afinal de contas, apenas um bom nerd pra entender bem o gosto do outro.
+            </p>
+            <p>Nossas coletâneas são muito diversificadas, desde contos clássicos como O Senhor dos Anéis, até galáxias
+                muito distantes como em Star Wars, desde os deuses do Olimpo em Percy Jackson aos vários universos da
+                Marvel.
+            </p>
+        </div>
+    </section>
+    <div id="nossosboxes" class="blue-violet-bg section conteudo-nossosboxes">
+        <h2>Nossos Boxes</h2>
+        <div class="row">
+            <div class="img_box">
+                <a href="./Assets/img/darth-vader.jpg" title="clique aqui para amplilar" target="_blank">
+                    <img src="./Assets/img/darth-vader.jpg" alt="Imagem Darth-Vader" class="img_pq">
+                </a>
+            </div>
+            <div class="img_box">
+                <a href="./Assets/img/game-of-thrones.jpg" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/game-of-thrones.jpg" alt="Imagem Game of Thrones" class="img_pq">
+                </a>
+            </div>
+            <div class="img_box">
+                <a href="./Assets/img/geek-box.png" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/geek-box.png" alt="Imagem Geek Box" class="img_pq">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="img_box">
+                <a href="./Assets/img/last-of-us.png" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/last-of-us.png" alt="Imagem The Last of Us" class="img_pq">
+                </a>
+            </div>
+            <div class="img_box">
+                <a href="./Assets/img/o-senhor-dos-aneis.jpg" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/o-senhor-dos-aneis.jpg" alt="Imagem O Senhor dos Anéis" class="img_pq">
+                </a>
+            </div>
+            <div class="img_box">
+                <a href="./Assets/img/percy-jackson.jpg" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/percy-jackson.jpg" alt="Imagem Percy Jackson" class="img_pq">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="img_box">
+                <a href="./Assets/img/Play-Station.jpg" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/Play-Station.jpg" alt="Imagem Play Station" class="img_pq">
+                </a>
+            </div>
+            <div class="img_box">
+                <a href="./Assets/img/xbox.jpg" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/xbox.jpg" alt="Imagem Xbox" class="img_pq">
+                </a>
+            </div>
+            <div class="img_box">
+                <a href="./Assets/img/yoda.jpg" title="clique aqui para ampliar" target="_blank">
+                    <img src="./Assets/img/yoda.jpg" alt="Imagem Yoda" class="img_pq">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <section id="nossosplanos" class="black-bg section nossos-planos">
+        <h2>Nossos Planos</h2>
+        <div class="conteudo-nossosplanos conteudo-principal">
+            <div class="plano-mensal">
+                <h1 class="plano-mensal-texto">R$99,00</h1>
+                <h2 class="plano-mensal-texto-1">No plano mensal Maria NerdBox, você paga por mês o valor acima e recebe
+                    todos os meses conteúdo nerdístico atualizado dos seus personagens favoritos.</h2>
+                <p class="plano-mensal-texto-2">Sem renovação automática, você paga apenas nos meses que quiser receber.
+                </p>
+            </div>
+            <div class="plano-anual">
+                <h1 class="plano-anual-texto">R$999,00</h1>
+                <h2 class="plano-anual-texto-1">Já no plano anual, você paga apenas uma única taxa promocional, que pode
+                    ser parcelada no cartão de crédito e recebe conteúdo nerdístico todos os meses atualizado dos seus
+                    personagens favoritos.</h2>
+                <p class="plano-anual-texto-2"> Você pode mudar o personagem que quiser receber sempre que quiser, é só
+                    entrar em contato.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="blue-violet-bg section">
+        <div class="conteudo-principal conteudo-contato">
+            <div class="conteudo-texto-contato">
+                <h2>Contato</h2>
+                <p>Nosso atendimento é feito de segunda a sexta, das 8h às 18hs. Entre em contato conosco através do formulário abaixo ou pelo nosso link do Whatsapp.
+                </p>
+            </div>
+            <div class="contact-img">
+                <img src="Assets/img/vader-call-center.jpg" alt="Darth Vader no Call Center" width="350" height="250">
+            </div>
+            <div class="formulario-contato">
+                <fieldset class="formulario-grid">
+                    <div class="grupo-formulario">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                    </div>
+                    <div class="grupo-formulario full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="blue-violet-bg conteudo-rodape"> 
+        <p class="texto-rodape">Maria NerdBox®. Todos os direitos reservados.</p>
+        <a class="whatsapp-link" target="_blank" href="https://wa.me/5521964980203">
+            <img class="whatsapp-logo" src="./Assets/Img/whatsapp-logo.jpeg" height="70" width="70" alt="Logo Whatsapp">
+        </a> 
+    </footer>
+</body>
+
+</html>
